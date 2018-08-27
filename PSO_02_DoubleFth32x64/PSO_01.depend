@@ -1,0 +1,439 @@
+# depslib dependency file v1.0
+1503074537 source:c:\users\ricardo santos\desktop\pso_01\main.c
+	<stdio.h>
+	<stdlib.h>
+	"aloca/aloca.c"
+	"InsertionSort/InsertSort.c"
+	"Randomica/randomica.c"
+	"imprimir.c"
+	"CalculaH/CalculaH.c"
+	"CalculaF/CalculaF.c"
+	"rede.c"
+	"pso.c"
+	"CalculaP/CalculaP.c"
+	"CalculaFth/CalculaFth.c"
+	"CalculaPibest/calculaPibest.c"
+	"CalculaPgbest/CalculaPgbest.c"
+	"CalculaG/CalculaG.c"
+	"calculajPibest/calculajPibest.c"
+	"CalculaVelocidade/calculaVelocidade.c"
+	"CalculaSNR/calculaSNR.c"
+	"calculaSNIR_aux/calculaSNIR_aux.c"
+	"calculaPgbest_aux/calculaPgbest_aux.c"
+	"calculaPSOAUX/calculaPSOAUX.c"
+	"gravarTxt/gravarTxt.c"
+
+1499264810 c:\users\ricardo santos\desktop\pso_01\aloca\aloca.c
+	<stdio.h>
+	<stdlib.h>
+
+1495145648 c:\users\ricardo santos\desktop\pso_01\insertionsort\insertsort.c
+	<stdio.h>
+	<stdlib.h>
+
+1497441066 c:\users\ricardo santos\desktop\pso_01\randomica\randomica.c
+	<stdio.h>
+	<stdlib.h>
+
+1495164234 c:\users\ricardo santos\desktop\pso_01\imprimir.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1497874804 c:\users\ricardo santos\desktop\pso_01\calculah\calculah.c
+	<stdio.h>
+	<stdlib.h>
+
+1497835656 c:\users\ricardo santos\desktop\pso_01\calculaf\calculaf.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1497875212 c:\users\ricardo santos\desktop\pso_01\rede.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1499349022 c:\users\ricardo santos\desktop\pso_01\pso.c
+	<stdio.h>
+	<stdlib.h>
+
+1497830570 c:\users\ricardo santos\desktop\pso_01\calculap\calculap.c
+	<stdio.h>
+	<stdlib.h>
+
+1497830280 c:\users\ricardo santos\desktop\pso_01\calculafth\calculafth.c
+	<stdio.h>
+	<stdlib.h>
+
+1497832402 c:\users\ricardo santos\desktop\pso_01\calculapibest\calculapibest.c
+	<stdio.h>
+	<stdlib.h>
+
+1497833744 c:\users\ricardo santos\desktop\pso_01\calculapgbest\calculapgbest.c
+	<stdio.h>
+	<stdlib.h>
+
+1497836330 c:\users\ricardo santos\desktop\pso_01\calculag\calculag.c
+	<stdio.h>
+	<stdlib.h>
+
+1497837266 c:\users\ricardo santos\desktop\pso_01\calculajpibest\calculajpibest.c
+	<stdio.h>
+	<stdlib.h>
+
+1497837558 c:\users\ricardo santos\desktop\pso_01\calculavelocidade\calculavelocidade.c
+	<stdio.h>
+	<stdlib.h>
+
+1497839144 c:\users\ricardo santos\desktop\pso_01\calculasnr\calculasnr.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1499265404 c:\users\ricardo santos\desktop\pso_01\calculasnir_aux\calculasnir_aux.c
+	<stdio.h>
+	<stdlib.h>
+
+1499286168 c:\users\ricardo santos\desktop\pso_01\calculapgbest_aux\calculapgbest_aux.c
+	<stdio.h>
+	<stdlib.h>
+
+1499355128 c:\users\ricardo santos\desktop\pso_01\calculapsoaux\calculapsoaux.c
+	<stdio.h>
+	<stdlib.h>
+
+1503074837 c:\users\ricardo santos\desktop\pso_01\gravartxt\gravartxt.c
+	<stdio.h>
+	<stdlib.h>
+
+1503700773 source:c:\users\ricardo santos\desktop\pso_01_double\main.c
+	<stdio.h>
+	<stdlib.h>
+	"aloca/aloca.c"
+	"InsertionSort/InsertSort.c"
+	"Randomica/randomica.c"
+	"imprimir.c"
+	"CalculaH/CalculaH.c"
+	"CalculaF/CalculaF.c"
+	"rede.c"
+	"pso.c"
+	"CalculaP/CalculaP.c"
+	"CalculaFth/CalculaFth.c"
+	"CalculaPibest/calculaPibest.c"
+	"CalculaPgbest/CalculaPgbest.c"
+	"CalculaG/CalculaG.c"
+	"calculajPibest/calculajPibest.c"
+	"CalculaVelocidade/calculaVelocidade.c"
+	"CalculaSNR/calculaSNR.c"
+	"calculaSNIR_aux/calculaSNIR_aux.c"
+	"calculaPgbest_aux/calculaPgbest_aux.c"
+	"calculaPSOAUX/calculaPSOAUX.c"
+	"gravarTxt/gravarTxt.c"
+
+1503700212 c:\users\ricardo santos\desktop\pso_01_double\aloca\aloca.c
+	<stdio.h>
+	<stdlib.h>
+
+1503506624 c:\users\ricardo santos\desktop\pso_01_double\insertionsort\insertsort.c
+	<stdio.h>
+	<stdlib.h>
+
+1503506692 c:\users\ricardo santos\desktop\pso_01_double\randomica\randomica.c
+	<stdio.h>
+	<stdlib.h>
+
+1503506735 c:\users\ricardo santos\desktop\pso_01_double\imprimir.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1503506025 c:\users\ricardo santos\desktop\pso_01_double\calculah\calculah.c
+	<stdio.h>
+	<stdlib.h>
+
+1497835656 c:\users\ricardo santos\desktop\pso_01_double\calculaf\calculaf.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1502873476 c:\users\ricardo santos\desktop\pso_01_double\rede.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1503700741 c:\users\ricardo santos\desktop\pso_01_double\pso.c
+	<stdio.h>
+	<stdlib.h>
+
+1503506044 c:\users\ricardo santos\desktop\pso_01_double\calculap\calculap.c
+	<stdio.h>
+	<stdlib.h>
+
+1503700023 c:\users\ricardo santos\desktop\pso_01_double\calculafth\calculafth.c
+	<stdio.h>
+	<stdlib.h>
+
+1497832402 c:\users\ricardo santos\desktop\pso_01_double\calculapibest\calculapibest.c
+	<stdio.h>
+	<stdlib.h>
+
+1503506055 c:\users\ricardo santos\desktop\pso_01_double\calculapgbest\calculapgbest.c
+	<stdio.h>
+	<stdlib.h>
+
+1502872728 c:\users\ricardo santos\desktop\pso_01_double\calculag\calculag.c
+	<stdio.h>
+	<stdlib.h>
+
+1497837266 c:\users\ricardo santos\desktop\pso_01_double\calculajpibest\calculajpibest.c
+	<stdio.h>
+	<stdlib.h>
+
+1502871916 c:\users\ricardo santos\desktop\pso_01_double\calculavelocidade\calculavelocidade.c
+	<stdio.h>
+	<stdlib.h>
+
+1503506139 c:\users\ricardo santos\desktop\pso_01_double\calculasnr\calculasnr.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1503506105 c:\users\ricardo santos\desktop\pso_01_double\calculasnir_aux\calculasnir_aux.c
+	<stdio.h>
+	<stdlib.h>
+
+1499286168 c:\users\ricardo santos\desktop\pso_01_double\calculapgbest_aux\calculapgbest_aux.c
+	<stdio.h>
+	<stdlib.h>
+
+1499355128 c:\users\ricardo santos\desktop\pso_01_double\calculapsoaux\calculapsoaux.c
+	<stdio.h>
+	<stdlib.h>
+
+1503506912 c:\users\ricardo santos\desktop\pso_01_double\gravartxt\gravartxt.c
+	<stdio.h>
+	<stdlib.h>
+
+1504526623 source:c:\users\ricardo santos\desktop\pso_01_doublefth\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"aloca/aloca.c"
+	"InsertionSort/InsertSort.c"
+	"Randomica/randomica.c"
+	"imprimir.c"
+	"CalculaH/CalculaH.c"
+	"CalculaF/CalculaF.c"
+	"rede.c"
+	"pso.c"
+	"CalculaP/CalculaP.c"
+	"CalculaFth/CalculaFth.c"
+	"CalculaPibest/calculaPibest.c"
+	"CalculaPgbest/CalculaPgbest.c"
+	"CalculaG/CalculaG.c"
+	"calculajPibest/calculajPibest.c"
+	"CalculaVelocidade/calculaVelocidade.c"
+	"CalculaSNR/calculaSNR.c"
+	"calculaSNIR_aux/calculaSNIR_aux.c"
+	"calculaPgbest_aux/calculaPgbest_aux.c"
+	"calculaPSOAUX/calculaPSOAUX.c"
+	"gravarTxt/gravarTxt.c"
+
+1504321932 c:\users\ricardo santos\desktop\pso_01_doublefth\aloca\aloca.c
+	<stdio.h>
+	<stdlib.h>
+
+1504321966 c:\users\ricardo santos\desktop\pso_01_doublefth\insertionsort\insertsort.c
+	<stdio.h>
+	<stdlib.h>
+
+1504322117 c:\users\ricardo santos\desktop\pso_01_doublefth\randomica\randomica.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1503506735 c:\users\ricardo santos\desktop\pso_01_doublefth\imprimir.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1504322162 c:\users\ricardo santos\desktop\pso_01_doublefth\calculah\calculah.c
+	<stdio.h>
+	<stdlib.h>
+
+1497835656 c:\users\ricardo santos\desktop\pso_01_doublefth\calculaf\calculaf.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1504392138 c:\users\ricardo santos\desktop\pso_01_doublefth\rede.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1504533248 c:\users\ricardo santos\desktop\pso_01_doublefth\pso.c
+	<stdio.h>
+	<stdlib.h>
+
+1503840383 c:\users\ricardo santos\desktop\pso_01_doublefth\calculap\calculap.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1503700023 c:\users\ricardo santos\desktop\pso_01_doublefth\calculafth\calculafth.c
+	<stdio.h>
+	<stdlib.h>
+
+1497832402 c:\users\ricardo santos\desktop\pso_01_doublefth\calculapibest\calculapibest.c
+	<stdio.h>
+	<stdlib.h>
+
+1503506055 c:\users\ricardo santos\desktop\pso_01_doublefth\calculapgbest\calculapgbest.c
+	<stdio.h>
+	<stdlib.h>
+
+1502872728 c:\users\ricardo santos\desktop\pso_01_doublefth\calculag\calculag.c
+	<stdio.h>
+	<stdlib.h>
+
+1497837266 c:\users\ricardo santos\desktop\pso_01_doublefth\calculajpibest\calculajpibest.c
+	<stdio.h>
+	<stdlib.h>
+
+1502871916 c:\users\ricardo santos\desktop\pso_01_doublefth\calculavelocidade\calculavelocidade.c
+	<stdio.h>
+	<stdlib.h>
+
+1503506139 c:\users\ricardo santos\desktop\pso_01_doublefth\calculasnr\calculasnr.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1504322053 c:\users\ricardo santos\desktop\pso_01_doublefth\calculasnir_aux\calculasnir_aux.c
+	<stdio.h>
+	<stdlib.h>
+
+1499286168 c:\users\ricardo santos\desktop\pso_01_doublefth\calculapgbest_aux\calculapgbest_aux.c
+	<stdio.h>
+	<stdlib.h>
+
+1504322081 c:\users\ricardo santos\desktop\pso_01_doublefth\calculapsoaux\calculapsoaux.c
+	<stdio.h>
+	<stdlib.h>
+
+1503839798 c:\users\ricardo santos\desktop\pso_01_doublefth\gravartxt\gravartxt.c
+	<stdio.h>
+	<stdlib.h>
+
+1511550310 source:c:\users\ricardo santos\desktop\backup ricardo\desktop\utfpr\i_c_2017-2018\pso_01_doublefth\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"aloca/aloca.c"
+	"InsertionSort/InsertSort.c"
+	"Randomica/randomica.c"
+	"imprimir.c"
+	"CalculaH/CalculaH.c"
+	"CalculaF/CalculaF.c"
+	"rede.c"
+	"pso.c"
+	"CalculaP/CalculaP.c"
+	"CalculaFth/CalculaFth.c"
+	"CalculaPibest/calculaPibest.c"
+	"CalculaPgbest/CalculaPgbest.c"
+	"CalculaG/CalculaG.c"
+	"calculajPibest/calculajPibest.c"
+	"CalculaVelocidade/calculaVelocidade.c"
+	"CalculaSNR/calculaSNR.c"
+	"calculaSNIR_aux/calculaSNIR_aux.c"
+	"calculaPgbest_aux/calculaPgbest_aux.c"
+	"calculaPSOAUX/calculaPSOAUX.c"
+	"gravarTxt/gravarTxt.c"
+
+1504325532 c:\users\ricardo santos\desktop\backup ricardo\desktop\utfpr\i_c_2017-2018\pso_01_doublefth\aloca\aloca.c
+	<stdio.h>
+	<stdlib.h>
+
+1504325566 c:\users\ricardo santos\desktop\backup ricardo\desktop\utfpr\i_c_2017-2018\pso_01_doublefth\insertionsort\insertsort.c
+	<stdio.h>
+	<stdlib.h>
+
+1504325717 c:\users\ricardo santos\desktop\backup ricardo\desktop\utfpr\i_c_2017-2018\pso_01_doublefth\randomica\randomica.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1503510335 c:\users\ricardo santos\desktop\backup ricardo\desktop\utfpr\i_c_2017-2018\pso_01_doublefth\imprimir.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1504325762 c:\users\ricardo santos\desktop\backup ricardo\desktop\utfpr\i_c_2017-2018\pso_01_doublefth\calculah\calculah.c
+	<stdio.h>
+	<stdlib.h>
+
+1497839256 c:\users\ricardo santos\desktop\backup ricardo\desktop\utfpr\i_c_2017-2018\pso_01_doublefth\calculaf\calculaf.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1504395738 c:\users\ricardo santos\desktop\backup ricardo\desktop\utfpr\i_c_2017-2018\pso_01_doublefth\rede.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1511550936 c:\users\ricardo santos\desktop\backup ricardo\desktop\utfpr\i_c_2017-2018\pso_01_doublefth\pso.c
+	<stdio.h>
+	<stdlib.h>
+
+1503843983 c:\users\ricardo santos\desktop\backup ricardo\desktop\utfpr\i_c_2017-2018\pso_01_doublefth\calculap\calculap.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1503703623 c:\users\ricardo santos\desktop\backup ricardo\desktop\utfpr\i_c_2017-2018\pso_01_doublefth\calculafth\calculafth.c
+	<stdio.h>
+	<stdlib.h>
+
+1497836002 c:\users\ricardo santos\desktop\backup ricardo\desktop\utfpr\i_c_2017-2018\pso_01_doublefth\calculapibest\calculapibest.c
+	<stdio.h>
+	<stdlib.h>
+
+1503509655 c:\users\ricardo santos\desktop\backup ricardo\desktop\utfpr\i_c_2017-2018\pso_01_doublefth\calculapgbest\calculapgbest.c
+	<stdio.h>
+	<stdlib.h>
+
+1502876328 c:\users\ricardo santos\desktop\backup ricardo\desktop\utfpr\i_c_2017-2018\pso_01_doublefth\calculag\calculag.c
+	<stdio.h>
+	<stdlib.h>
+
+1497840866 c:\users\ricardo santos\desktop\backup ricardo\desktop\utfpr\i_c_2017-2018\pso_01_doublefth\calculajpibest\calculajpibest.c
+	<stdio.h>
+	<stdlib.h>
+
+1502875516 c:\users\ricardo santos\desktop\backup ricardo\desktop\utfpr\i_c_2017-2018\pso_01_doublefth\calculavelocidade\calculavelocidade.c
+	<stdio.h>
+	<stdlib.h>
+
+1503509739 c:\users\ricardo santos\desktop\backup ricardo\desktop\utfpr\i_c_2017-2018\pso_01_doublefth\calculasnr\calculasnr.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1504325653 c:\users\ricardo santos\desktop\backup ricardo\desktop\utfpr\i_c_2017-2018\pso_01_doublefth\calculasnir_aux\calculasnir_aux.c
+	<stdio.h>
+	<stdlib.h>
+
+1499289768 c:\users\ricardo santos\desktop\backup ricardo\desktop\utfpr\i_c_2017-2018\pso_01_doublefth\calculapgbest_aux\calculapgbest_aux.c
+	<stdio.h>
+	<stdlib.h>
+
+1504325681 c:\users\ricardo santos\desktop\backup ricardo\desktop\utfpr\i_c_2017-2018\pso_01_doublefth\calculapsoaux\calculapsoaux.c
+	<stdio.h>
+	<stdlib.h>
+
+1511540762 c:\users\ricardo santos\desktop\backup ricardo\desktop\utfpr\i_c_2017-2018\pso_01_doublefth\gravartxt\gravartxt.c
+	<stdio.h>
+	<stdlib.h>
+
