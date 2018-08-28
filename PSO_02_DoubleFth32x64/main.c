@@ -25,7 +25,7 @@ typedef struct pso//Estrutura que armazena dinãmicamente as variáveis do algorit
 }PSO;
 
 
-typedef struct psoaux
+typedef struct psoaux// Esse estrutura é utilizada para armazenar as variáveis do algoritmo em cada iteração.
 {
     double Wadp,c1,c2;
     double** SNIR,** P, ** G,** Fth, ** v, ** Pibest, **Pgbest;
