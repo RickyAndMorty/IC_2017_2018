@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-typedef struct Fth
+typedef struct Fth// Lista dinâmica que armazena as posições onde a SNIR é maior que a SNIR target
 {
     int x,y;
     struct Fth* prox;
 }Fth;
 
-typedef struct rede
+typedef struct rede// Estrutura que armazena as variáveis da rede de fíbra óptica
 {
     double** H;
     double* g_t, * Ltx_i, * F;
@@ -15,7 +15,7 @@ typedef struct rede
     double Vmax, Vmin,SNR_target, Rc, Rb, q, sigma_cc2;
     int K,M;
 }REDE;
-typedef struct pso
+typedef struct pso//Estrutura que armazena dinãmicamente as variáveis do algoritmo PSO
 {
     double** SNIR,** P, ** G, ** v, ** Pibest;
     double *Gii, * F, * jP, *Pgbest, * jPibest,*SNR;
@@ -91,7 +91,7 @@ int main()
         SNIR(pso);
         calculaFth(pso,rede);
         fitness(pso);
-		
+
         for(i = 0; i < pso->iteracoes; i ++)
         {
             SNIR(pso);
@@ -100,13 +100,13 @@ int main()
             bestLocal(pso);
             bestGlobal(pso);
             speed(pso);
-			
+
             speedBounds(pso);
             populationUpdate(pso);
             powerBounds(pso);
-			
-			
-			
+
+
+
             calculaSNIR_aux(pso,psoaux,i);
             calculaPgbest_aux(pso,psoaux,i);
             psoaux->jP[i] = pso->jPgbest;
