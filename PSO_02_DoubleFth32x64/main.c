@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-typedef struct Fth// Lista dinâmica que armazena as posições onde a SNIR é maior que a SNIR target
+//Dynamic list where the positions of the SNIR is bigger than the SNIR target is stored. 
+typedef struct Fth// Dynamic list where the position of the SNIR is bigger than the SNIR target is stored. 
 {
     int x,y;
     struct Fth* prox;
