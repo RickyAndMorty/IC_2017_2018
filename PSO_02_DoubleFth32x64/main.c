@@ -7,7 +7,8 @@ typedef struct Fth// Dynamic list where the position of the SNIR is bigger than 
     struct Fth* prox;
 }Fth;
 
-typedef struct rede// Estrutura que armazena as variáveis da rede de fíbra óptica
+
+typedef struct rede//Structure that store the optical network variables
 {
     double** H;
     double* g_t, * Ltx_i, * F;
