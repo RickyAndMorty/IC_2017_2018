@@ -16,7 +16,7 @@ typedef struct rede//Structure that store the optical network variables
     double Vmax, Vmin,SNR_target, Rc, Rb, q, sigma_cc2;
     int K,M;
 }REDE;
-typedef struct pso//Estrutura que armazena dinãmicamente as variáveis do algoritmo PSO
+typedef struct pso//Structure that store dynamically the PSO algorithm variables.
 {
     double** SNIR,** P, ** G, ** v, ** Pibest;
     double *Gii, * F, * jP, *Pgbest, * jPibest,*SNR;
@@ -24,9 +24,7 @@ typedef struct pso//Estrutura que armazena dinãmicamente as variáveis do algorit
     Fth* fth;
     int K, M,iteracoes;
 }PSO;
-
-
-typedef struct psoaux// Esse estrutura é utilizada para armazenar as variáveis do algoritmo em cada iteração.
+typedef struct psoaux// This structure is utilized to store the PSO algorithm variables in each round. 
 {
     double Wadp,c1,c2;
     double** SNIR,** P, ** G,** Fth, ** v, ** Pibest, **Pgbest;
@@ -34,11 +32,12 @@ typedef struct psoaux// Esse estrutura é utilizada para armazenar as variáveis d
     int K,iteracoes,M;
 
 }PSOAUX;
-#include "aloca/aloca.c"
-#include "InsertionSort/InsertSort.c"
-#include "Randomica/randomica.c"
-#include "imprimir.c"
-#include "CalculaH/CalculaH.c"
+// This files are created separatelly, but belongs to the same folder.
+#include "aloca/aloca.c"//This file contains the functions responsable for allocating the memory dynamically. 
+#include "InsertionSort/InsertSort.c"// This file contains the function InsertionSort, that is, ordenation by insertion.
+#include "Randomica/randomica.c"// This file constains a function responsable for generate a matrix which contains numbers randomically generated.
+#include "imprimir.c"// This file contains the functions responsable for shown the results in the prompt windows.
+#include "CalculaH/CalculaH.c"// This file contains the function responsable for generate the normalized matrix H of interference.
 #include "CalculaF/CalculaF.c"
 #include "rede.c"
 #include "pso.c"
