@@ -38,7 +38,7 @@ typedef struct psoaux// This structure is utilized to store the PSO algorithm va
 #include "Randomica/randomica.c"// This file constains a function responsable for generate a matrix which contains numbers randomically generated.
 #include "imprimir.c"// This file contains the functions responsable for shown the results in the prompt windows.
 #include "CalculaH/CalculaH.c"// This file contains the function responsable for generate the normalized matrix H of interference.
-#include "CalculaF/CalculaF.c"
+#include "CalculaF/CalculaF.c"// This file contais the function responsable for calculate the quocient of the bit rate by the chip rate.
 #include "rede.c"
 #include "pso.c"
 #include "CalculaP/CalculaP.c"
