@@ -8,7 +8,7 @@ typedef struct Fth// Dynamic list where the position of the SNIR is bigger than 
 }Fth;
 
 
-typedef struct rede//Structure that store the optical network variables
+typedef struct rede// Structure that store the optical network variables
 {
     double** H;
     double* g_t, * Ltx_i, * F;
@@ -16,7 +16,7 @@ typedef struct rede//Structure that store the optical network variables
     double Vmax, Vmin,SNR_target, Rc, Rb, q, sigma_cc2;
     int K,M;
 }REDE;
-typedef struct pso//Structure that store dynamically the PSO algorithm variables.
+typedef struct pso// Structure that store dynamically the PSO algorithm variables.
 {
     double** SNIR,** P, ** G, ** v, ** Pibest;
     double *Gii, * F, * jP, *Pgbest, * jPibest,*SNR;
@@ -39,12 +39,12 @@ typedef struct psoaux// This structure is utilized to store the PSO algorithm va
 #include "imprimir.c"// This file contains the functions responsable for shown the results in the prompt windows.
 #include "CalculaH/CalculaH.c"// This file contains the function responsable for generate the normalized matrix H of interference.
 #include "CalculaF/CalculaF.c"// This file contais the function responsable for calculate the quocient of the bit rate by the chip rate.
-#include "rede.c"
-#include "pso.c"
-#include "CalculaP/CalculaP.c"
-#include "CalculaFth/CalculaFth.c"
-#include "CalculaPibest/calculaPibest.c"
-#include "CalculaPgbest/CalculaPgbest.c"
+#include "rede.c"// This file contains all the attributes related to the passive optical network, all the datas are generated mathematically.
+#include "pso.c"// This file contains the functions related to the pso algorithm.
+#include "CalculaP/CalculaP.c"// This file contains the function responsable for generate the surface of research of the pso algorithm. 
+#include "CalculaFth/CalculaFth.c"// This file contains the function responsable for give guindace to the particle swarm of the algorithm. 
+#include "CalculaPibest/calculaPibest.c"// This file contains the function responsable for, initially, generate the best local positions. 
+#include "CalculaPgbest/CalculaPgbest.c"// This file contains the function responsable for, initially, generate the best global positions. 
 #include "CalculaG/CalculaG.c"
 #include "calculajPibest/calculajPibest.c"
 #include "CalculaVelocidade/calculaVelocidade.c"
