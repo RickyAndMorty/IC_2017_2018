@@ -52,7 +52,7 @@ typedef struct psoaux// This structure is utilized to store the PSO algorithm va
 #include "calculaSNIR_aux/calculaSNIR_aux.c"// This file contains the function responsable for store the path followed by the SNIR of each userof the network.
 #include "calculaPgbest_aux/calculaPgbest_aux.c"// This file contains the function responsable for store the global positions of the particles along the path. 
 #include "calculaPSOAUX/calculaPSOAUX.c"// This file contains some functions which are twins of the functions belong to the original file of the PSO.
-#include "gravarTxt/gravarTxt.c"// This file contains the functions responsable for storing all the datas generated during the simulation.
+#include "gravarTxt/gravarTxt.c"// This file contains the functions responsable for storing all the datas generated during the simulation, in a txt file.
 
 
 
