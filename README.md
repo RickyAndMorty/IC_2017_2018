@@ -11,4 +11,5 @@ The PSO is based on thei moviment of a population (swarm) of individuals (partic
 References
 
 [1] Javier, M.; de Miguel, I.; J. Durán, R.; Merayo, N.; Kuman Singh, S.; Jukan, A.; Chamania, M.; Artificial intelligence (AI) methods in optical networks: A comprehensive survey; Optical Switching and Networking, 2018.
+
 [2] Power Allocation in PON-OCDMA with Improved Chaos Particle Swarm Optimization. 
