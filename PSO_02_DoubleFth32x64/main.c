@@ -43,16 +43,16 @@ typedef struct psoaux// This structure is utilized to store the PSO algorithm va
 #include "pso.c"// This file contains the functions related to the pso algorithm.
 #include "CalculaP/CalculaP.c"// This file contains the function responsable for generate the surface of research of the pso algorithm. 
 #include "CalculaFth/CalculaFth.c"// This file contains the function responsable for give guindace to the particle swarm of the algorithm. 
-#include "CalculaPibest/calculaPibest.c"// This file contains the function responsable for, initially, generate the best local positions. 
+#include "CalculaPibest/calculaPibest.c"// This file contains the function responsable for, initially, generate the best local positions, as a matrix. 
 #include "CalculaPgbest/CalculaPgbest.c"// This file contains the function responsable for, initially, generate the best global positions. 
-#include "CalculaG/CalculaG.c"
-#include "calculajPibest/calculajPibest.c"
-#include "CalculaVelocidade/calculaVelocidade.c"
-#include "CalculaSNR/calculaSNR.c"
-#include "calculaSNIR_aux/calculaSNIR_aux.c"
-#include "calculaPgbest_aux/calculaPgbest_aux.c"
-#include "calculaPSOAUX/calculaPSOAUX.c"
-#include "gravarTxt/gravarTxt.c"
+#include "CalculaG/CalculaG.c"// This file contains the function responsable for calculating the gains of the star coupler. 
+#include "calculajPibest/calculajPibest.c"// This file contains the function responsable for, initially, generate the best local positions, as a vector.  
+#include "CalculaVelocidade/calculaVelocidade.c"// This file contains the function responsable for calculate the velocity of the particles.
+#include "CalculaSNR/calculaSNR.c"// This file contains the function responsable for calculate the SNR, which will be evaluate as a final result.
+#include "calculaSNIR_aux/calculaSNIR_aux.c"// This file contains the function responsable for store the path followed by the SNIR of each userof the network.
+#include "calculaPgbest_aux/calculaPgbest_aux.c"// This file contains the function responsable for store the global positions of the particles along the path. 
+#include "calculaPSOAUX/calculaPSOAUX.c"// This file contains some functions which are twins of the functions belong to the original file of the PSO.
+#include "gravarTxt/gravarTxt.c"// This file contains the functions responsable for storing all the datas generated during the simulation.
 
 
 
