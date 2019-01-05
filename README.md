@@ -2,7 +2,7 @@
 
 Artificial Intelligence (AI) is an extensive scientific discipline with enables computer systems to solve problems by emulating complex biological proccess such as learning, reasoning and self-correction. A stride forward towards making agents more intelligent comes by incorporating the use of knowledge, reasoning and planning. In this case, intelligent agents keep a knowledge base where relevant knowledge about the environment and about the impact of their actions is stored [1].
 
-The goal of this work is to  control the signal-to-noise plus interference ration in a passive optical network, using the algorithm of optimization based on the moviment of particles randomically distributed. The algorithm is knowing as PSO, which means Particle Swarm Optimization. 
+The goal of this work is to minimize the interferece between the users of the optical network, and maximize the energy efficiency, considering the quality of service (QoS) restrictions in terms of signal-to-noise-plus-interference ratio (SNIR) of each optical user class[2]. Using the algorithm of optimization, knowing as PSO, which means Particle Swarm Optimization. 
 
 The PSO is based on the of a population (swarm) of individuals (particles) randomily distributed in the search space, each one with its own position and velocity [2].
 
