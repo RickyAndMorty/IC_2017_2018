@@ -42,7 +42,7 @@ typedef struct psoaux// This structure is utilized to store the PSO algorithm va
 #include "rede.c"// This file contains all the attributes related to the passive optical network, all the datas are generated mathematically.
 #include "pso.c"// This file contains the functions related to the pso algorithm.
 #include "CalculaP/CalculaP.c"// This file contains the function responsible for generate the surface of research of the pso algorithm. 
-#include "CalculaFth/CalculaFth.c"// This file contains the function responsible for give guindace to the particle swarm of the algorithm. 
+#include "CalculaFth/CalculaFth.c"// This file contains the function responsible for providing guindace to the particle swarm of the algorithm. 
 #include "CalculaPibest/calculaPibest.c"// This file contains the function responsible for, initially, generate the best local positions, as a matrix. 
 #include "CalculaPgbest/CalculaPgbest.c"// This file contains the function responsible for, initially, generate the best global positions. 
 #include "CalculaG/CalculaG.c"// This file contains the function responsible for calculating the gains of the star coupler. 
