@@ -56,7 +56,7 @@ typedef struct psoaux// This structure is utilized to store the PSO algorithm va
 
 
 
-int verificaSNR(PSO* pso)
+int verificaSNR(PSO* pso)// This function evaluate the result of the PSO evolution.
 {
     int i,cont;
     cont = 0;
@@ -74,14 +74,14 @@ int verificaSNR(PSO* pso)
 int main()
 {
     int (i);
-    REDE* rede = allocaREDE();
-    PSO* pso = allocaPSO();
-    PSOAUX * psoaux = allocaPSOAUX();
-    clock_t tempo;
-	tempo = clock();
+    REDE* rede = allocaREDE();// This function allocates an object REDE dinamically.
+    PSO* pso = allocaPSO();// This function allocates an objetct PSO dinamically.
+    PSOAUX * psoaux = allocaPSOAUX();// This function allocates an object PSOAUX dinamically.
+    clock_t tempo;// This variable is used to count the time taken to evaluate the algorithm. 
+	tempo = clock();// "tempo" is initialized with the current host time. 
    // do
     //{
-        calculaRede(rede);
+        calculaRede(rede);// Using math, the network is configured at the physical level.
         inserirPSO(pso,rede);
         calculaPSOAUX(psoaux,pso);
         CalculaP(pso);
