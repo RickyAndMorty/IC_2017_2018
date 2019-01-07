@@ -12,4 +12,4 @@ References
 
 [1] Javier, M.; de Miguel, I.; J. Durán, R.; Merayo, N.; Kuman Singh, S.; Jukan, A.; Chamania, M.; Artificial intelligence (AI) methods in optical networks: A comprehensive survey; Optical Switching and Networking, 2018.
 
-[2] Power Allocation in PON-OCDMA with Improved Chaos Particle Swarm Optimization. 
+[2] Power Allocation in PON-OCDMA with Improved Chaos Particle Swarm Optimization. Santana, G.; R. Durand, F.; Abrão, T.; Journal of Microwaves, Optoelectronics and Electromagnetic Applications, 2018.
