@@ -81,14 +81,15 @@ int main()
 	tempo = clock();// "tempo" is initialized with the current host time. 
    // do
     //{
+	// At this point, we are just setting the variables and constants of the network and algorithm.
         calculaRede(rede);// Using math, the network is configured at the physical level.
         inserirPSO(pso,rede);// This function set the initial state of the PSO algorithm.
         calculaPSOAUX(psoaux,pso);// This function set the initial state of the structure responsible for store the evolution of the PSO. 
         CalculaP(pso);// This function is responsible for filling the search area. 
         calculaPibest(pso);// This function is responsible for initializing the best local positions of the PSO.
-        calculaPgbest(pso);
+        calculaPgbest(pso);// This function is responsible for initializing the best global positions of the PSO. 
         calculaG(pso,rede);
-        SNIR(pso);
+        SNIR(pso);// This function is calculating the SNIR belonging to all users of the optical network.
         calculaFth(pso,rede);
         fitness(pso);
 
