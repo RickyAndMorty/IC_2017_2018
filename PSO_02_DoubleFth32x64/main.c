@@ -36,7 +36,7 @@ typedef struct psoaux// This structure is utilized to store the PSO algorithm va
 #include "aloca/aloca.c"//This file contains the functions responsible for allocating the memory dynamically. 
 #include "InsertionSort/InsertSort.c"// This file contains the function InsertionSort, that is, ordenation by insertion.
 #include "Randomica/randomica.c"// This file constains a function responsible for generate a matrix which contains numbers randomically generated.
-#include "imprimir.c"// This file contains the functions responsible for shown the results in the prompt windows.
+#include "imprimir.c"// This file contains the functions responsible for shown the results in the prompt window.
 #include "CalculaH/CalculaH.c"// This file contains the function responsible for generate the normalized matrix H of interference.
 #include "CalculaF/CalculaF.c"// This file contais the function responsible for calculate the quocient of the bit rate by the chip rate.
 #include "rede.c"// This file contains all the attributes related to the passive optical network, all the datas are generated mathematically.
